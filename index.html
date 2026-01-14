@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  
+  <!-- SEO e Descrição -->
+  <meta name="description" content="Karina Medronho - Psicóloga e Psicanalista. Atendimento presencial em Copacabana e Méier (RJ) e online para brasileiros em todo o mundo.">
+  <meta name="keywords" content="psicologia, psicanálise, terapia online, psicóloga rio de janeiro, copacabana, méier, ansiedade, depressão, brasileiros no exterior">
+  <meta name="author" content="Karina Medronho">
+
+  <!-- Meta tags para Redes Sociais (WhatsApp, Instagram, LinkedIn) -->
+  <meta property="og:title" content="Karina - Psicologia e Psicanálise">
+  <meta property="og:description" content="Cuidado com a sua saúde emocional. Atendimento presencial e online.">
+  <meta property="og:image" content="assets/images/logo.png">
+  <meta property="og:url" content="https://www.karinapsicologia.com.br">
+  <meta property="og:type" content="website">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Karina Psicologia">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Karina - Psicologia e Psicanálise</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Estilo para a tela de carregamento (Loader) */
+    body {
+      background-color: #F4F6F8; /* Mesma cor de fundo do seu app Flutter */
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+    .loader {
+      border: 5px solid #E0F2F1;
+      border-top: 5px solid #00796B;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Esse conteúdo sumirá assim que o Flutter carregar -->
+  <div id="loading-indicator">
+    <div class="loader"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Remove o loader quando o Flutter estiver pronto
+      var loadingIndicator = document.getElementById('loading-indicator');
+      if (loadingIndicator) {
+        // O Flutter remove o conteúdo do body automaticamente, 
+        // mas isso garante uma transição mais limpa se necessário.
+      }
+    });
+  </script>
+
+  <!-- Script principal do Flutter -->
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
