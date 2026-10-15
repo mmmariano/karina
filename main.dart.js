@@ -81742,7 +81742,7 @@ A.ahv.prototype={
 $0(){return this.a.mH("Ol\xe1 Karina, estou no exterior e gostaria de saber mais sobre o atendimento online.")},
 $S:0}
 A.ahs.prototype={
-$0(){return A.aog(A.iq("https://www.trywebdesign.com.br",0,null))},
+$0(){return A.aog(A.iq("https://especialistaseo.online/",0,null))},
 $S:0}
 A.ahr.prototype={
 $1(a){var s=this,r=null
@@ -88314,7 +88314,7 @@ B.TC=new A.ea("Karina",null,B.Qt,null,null,null,null,null,null)
 B.Ru=new A.j(!0,B.ai,null,null,null,null,36,B.a_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TD=new A.ea("Agende sua Sess\xe3o",null,B.Ru,null,null,null,null,null,null)
 B.Qp=new A.j(!0,B.j8,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,B.ld,null,null,null,null,null,null,null,null)
-B.TE=new A.ea("Desenvolvido por TryWebDesign",null,B.Qp,null,null,null,null,null,null)
+B.TE=new A.ea("Desenvolvido por eSEO",null,B.Qp,null,null,null,null,null,null)
 B.PF=new A.j(!0,B.ai,null,null,null,null,22,B.a_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.TF=new A.ea("Informa\xe7\xf5es de Contato",null,B.PF,null,null,null,null,null,null)
 B.R2=new A.j(!0,B.l,null,null,null,null,16,B.a_,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
